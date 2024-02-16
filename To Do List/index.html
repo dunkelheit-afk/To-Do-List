@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My To Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="box">
+    <div class="container">
+      <h1>My To Do List</h1>
+      <p>Klik dua kali untuk membuat list</p>
+      <form name="todo-adder">
+        <input type="text" id="todo-entry-box" placeholder="Ketik disini"/>
+      </form> 
+        <button id="add-button" class="submit"><span></span>Submit</button>
+        <br>
+        <ol id="todo-list">
+        </ol>
+        <div id="control-wrapper">
+          <button id="clear-completed-button" onclick="clearCompletedToDoItems()" class="pencet">Clear Completed</button>
+          <button id="empty-button" onclick="emptyList()" class="pencet">Empty List</button>
+          <button id="save-button" onclick="saveList()" class="pencet">Save List</button>
+        </div>
+    </div>
+  </div>
+  <footer>
+    <p>©2024 To Do List by dunkelheit-AFK</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

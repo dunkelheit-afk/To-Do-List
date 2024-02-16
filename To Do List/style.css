@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  background: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.1);;
+  align-items: left;
+  justify-content: center;
+  width: 700px;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 480px;
+  border-radius: 50px;
+  box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.20);
+  border-color: black;
+  
+}
+
+.container h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container p {
+  display: flex;
+  align-items: center;
+  margin-left: 15rem;
+  margin-top: 10px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container form input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  
+}
+
+
+.container form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit{
+  position: relative;
+  width: 160px;
+  height: 30px;
+  text-align: center;
+  font-weight: 500;
+  border: 2px solid black;
+  background: transparent;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  margin-left: 17rem;
+}
+
+span{
+  background: black;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.submit:hover {
+  color: white;
+  transition: 1s;
+}
+
+button:hover span {
+  width: 100%;
+}
+
+#todo-entry-box {
+  border-radius: 8px;
+  padding: 8px;
+  border: 3px solid #657071;
+}
+
+footer p {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30rem;
+}
+
+#control-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-left: -2rem;
+}
+
+.pencet {
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid black;
+  padding: 8px;
+  font-weight: medium;
+}
+
+
+#todo-list {
+  margin-bottom: 20px;
+}
+
+li {
+  background-color: white;
+  border: 3px solid #657071;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 165px;
+  margin-left: 17rem;
+  padding: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+footer .container p {
+  display: flex;
+  flex-direction: column;
+}
+
+footer p{
+  margin-top: 600px;
+  margin-left: -690px;
+}
